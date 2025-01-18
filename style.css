@@ -1,0 +1,633 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo-sec .logo{
+    height: 200px;
+    border: 50%;
+}
+
+
+
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.navlinks ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.navlinks ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.navlinks ul .active{
+    color: red;
+}
+
+.search{
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+}
+
+.search input[type="text"]{
+    padding-left: 30px;
+    border-radius: 4px;
+    height: 30px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background: #fff;
+    box-shadow: 0 2px 5px black;
+    border-radius: 20px;
+    color: black;
+} 
+
+.search i{
+    font-size: 20px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translate(100%, -50%);
+    color: black;
+
+}
+
+
+
+.social ul li{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    background: red;
+    border-radius: 50%;
+}
+
+.social ul li i{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+}
+
+.hero-slide{
+    position: relative;
+    background: pink;
+    height: 66vh;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+
+.hero-slide .content h1{
+    
+    font-size: 4rem;
+    background: linear-gradient(to left, rgb(112, 101, 214), rgb(230,160, 213));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+}
+
+.design-img{
+    height: 100px;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content p{
+    max-width: 600px;
+    margin: 30px 0;
+    background: linear-gradient(to right, rgb(112, 101, 214), rgb(230, 160, 213));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content .button{
+    height: 50px;
+    width: 160px;
+    border-radius: 15px;
+    background: linear-gradient(to left, rgb(112, 101, 214), rgb(230, 160, 213));
+    border-width: none;
+    outline: none;
+    clip-path: polygon(0 0, 100% 18%, 100% 80%, 21% 100%);
+    cursor: pointer;
+}
+
+.button a{
+    position: relative;
+    top: 30%;
+    left: 20%;
+    text-decoration: none;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.button i{
+    font-size: 20px;
+    position: relative;
+    left: 24%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+
+}
+
+.hero-img{
+    left: 75%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+
+.design .design-img-5{
+    position: absolute;
+    height: 580px;
+    top: 48%;
+    left: 76%;
+    transform: translate(-50%, -50%);
+}
+
+.design-img-4{
+    height: 100px;
+    position: absolute;
+    top: 5%;
+    left: 78%;
+}
+.design-img-3{
+    height: 200px;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+
+.mini-hero-sec{
+    height: 30vh;
+    width: 100%;
+}
+
+
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
+    
+}
+
+.content-mini{ 
+    
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, rgb(112, 101, 214), rgb(230, 160, 213));
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: 0 5px 7px black;
+    padding: 20px;
+    justify-content: space-around;
+    overflow: hidden;
+
+}
+
+.box .content-mini .mini-img{
+    height: 160px;
+}
+
+.cont h4{
+    font-size: 1.7rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.cont a{
+    padding: 10px 20px;
+    background: linear-gradient(to left, rgb(112, 101, 214), rgb(230, 160, 213));
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 3px black;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+}
+
+.item{
+    background-image: url(img/sl_101721_46230_16.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 40px 10px;
+    border-radius: 30px;
+}
+
+.item h2{
+    font-size: 3rem;
+    background: linear-gradient(to right, rgb(112, 101, 214), rgb(230, 160, 213));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+}
+
+.item p{
+    font-size: 20px;
+    line-height: 3.4rem;
+    color: #fff;
+}
+
+.item .item-box .item-img{
+    padding: 10px;
+    height: 300px;
+}
+
+.item .itemflex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.itemflex .item-box{
+    height: 450px;
+    width: 300px;
+    background: #fff;
+    border-radius: 30px;
+    
+}
+
+.item-cont-min{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 5px;
+}
+
+.item-cont-min p{
+    color: black;
+    font-size: .8rem;
+    font-weight: 700;
+    line-height: 0.7rem;
+}
+
+.item-rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.item-rating ul{
+    display: flex;
+    list-style: none;
+}
+
+.item-rating ul li i{
+    font-size: 1.3rem;
+}
+
+.item-rating i{
+    font-size: 1.3rem;
+}
+
+.item-rating .item-button{
+    position: relative;
+    height: 40px;
+    width: 120px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(112, 101, 214), rgb(230, 160, 213));
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.item .viwe-more{
+    position: relative;
+    background: linear-gradient(to right, rgb(112, 101, 214), rgb(230, 160, 213));
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.help-line-section{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.help-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.help-logo{
+    height: 100px;
+    width: 100px;
+    background: red;
+    border-radius: 50%;
+}
+
+.help-logo i{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+}
+
+.help-sec p{
+    font-size: 1.7rem;
+}
+
+
+
+.special_poduct{
+    height: 75vh;
+    border-radius: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    background-image: url(./img/close-up-portrait-young-beatufiul-woman-looking-mirror-fixing-her-makeup-touching-soft-cle.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 10px 20px black;
+
+}
+
+.special_poduct h1{
+    font-size: 2rem;
+    position: relative;
+    transform: translateY(600%);
+    margin-left: 480px;
+    background: linear-gradient(to right, rgb(112, 101, 214), rgb(230, 160, 213));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.special{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
+    color: #000;
+}
+
+
+.special-cont{
+    position: relative;
+
+    transform: translate(0%, 70%);
+    height: 360px;
+    background: #fff;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.special-cont img{
+    height: 200px;
+}
+
+.special-cont .text-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    gap: 30px;
+}
+
+.special-cont .item-button{
+    margin-top: 20px;
+    position: relative;
+    height: 40px;
+    width: 220px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background: linear-gradient(to right, rgb(112, 101, 214), rgb(230, 160, 213));
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.offer{
+    margin-top: 50px;
+    height: 60vh;
+    background: #B48784;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px black;
+
+}
+
+.offer-img img{
+    max-width: 1280px;
+    height: 550px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+
+.sign-banner{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.signup-det h1{
+    font-size: 4rem;
+    background: linear-gradient(to right, rgb(112, 101, 214), rgb(230, 160, 213));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+}
+
+.sign-con{
+    margin-top: 50px;
+}
+
+.sign-con input{
+    height: 30px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(112, 101, 214), rgb(230, 160, 213));
+}
+
+
+::placeholder{
+    color: #fff;
+}
+
+#myVideo{
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px black;
+}
+
+#myVideo1{
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px black;
+}
+
+.sign-con a{
+    background: red;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+footer{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+
+.footer-logo img{
+    height: 200px;
+}
+
+.About-us{
+    max-width: 300px;
+    
+}
+
+.About-us h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.Quick-links{
+    list-style: none;
+    
+}
+
+.Quick-links h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.Quick-links ul{
+    list-style: none;
+}
+
+.Quick-links ul li a{
+    text-decoration: none;
+    color: #000;
+    line-height: 1.7rem;
+}
+
+.related ul{
+    list-style: none;
+}
+
+.related ul li a{
+    text-decoration: none;
+    line-height: 1.7rem;
+    color: black;
+}
+
+.contact h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact p{
+    font-size: 20px;
+    line-height: 1.7rem;
+}
+
+.footer-social{
+    background: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border-radius: 30px;
+    padding: 30px;
+    gap: 30px;
+    box-shadow: 0 10px 10px black;
+}
+
+.footer-social .bx{
+    font-size: 50px;
+    
+}
+
+.last-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}

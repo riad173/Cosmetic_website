@@ -1,0 +1,359 @@
+/* Extra small devices */
+
+@media (max-width: 575px){
+    body{
+        max-width: 575px;
+        padding: 10px;
+    }
+
+    .navbar .logo-sec .logo{
+        height: 60px;
+        margin: 20px;
+    }
+
+    .navlinks{
+        width: 100%;
+        z-index: 100;
+
+    }
+
+    .navlinks ul{
+        gap: 10px;
+    }
+
+    .navlinks ul li a{
+        width: 100%;
+        font-size: .7rem;
+    }
+
+    .social ul li{
+        height: 20px;
+        width: 20px;
+        display: block;
+
+    }
+
+    .social ul li i{
+        font-size: 10px;
+        display: block;
+        transform: translate(-25%, -50%);
+    }
+
+    .hero-slide{
+        width: 95%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        margin-left: 15px;
+    }
+
+    .hero-slide .content h1{
+        height: 100%;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .mini-hero-sec{
+        position: relative;
+        overflow: hidden;
+        height: 40vh;
+    }
+
+    .content p{
+        max-width: 200px;
+        font-size: 10px;
+    }
+
+    .content .button{
+        height: 20px;
+        width: 100px;
+    }
+
+    .button a{
+        top: 0;
+
+        font-size: 10px;
+    }
+
+    .button i{
+        font-size: 10px;
+        top: 8px;
+    }
+
+    .hero-img{
+        height: 365px;
+    }
+
+    .design .design-img-5{
+        margin-top: 25px;
+        height: 350px;
+    }
+
+    .design-img-4{
+        height: 50px;
+    }
+
+    .design-img-3{
+        height: 50px;
+        visibility: hidden;
+    }
+
+
+    .box{
+        gap: 10px;
+    }
+
+    .content-mini{
+        height: 150px;
+        width: 200px;
+    }
+
+    .cont{
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .cont h4{
+        font-size: 15px;
+    }
+
+    .cont a{
+        padding: 5px 15px;
+        font-size: 7px;
+        width: 100%;
+    }
+
+   .content-mini{
+    height: 120px;
+    margin-bottom: 10px;
+    margin: 10px;
+   }
+
+   .box{
+    gap: 10px;
+   }
+
+   .box .content-mini .mini-img{
+    height: 100px;
+   }
+
+   .item{
+    margin-top: 30px;
+   }
+
+   .item h2{
+    font-size: 2rem;
+   }
+
+   .item p{
+    font-size: 10px;
+   }
+
+   .search input[type="text"]{
+    width: 100px;
+   }
+
+   .item .item-box .item-img{
+    height: 150px;
+   }
+
+   .item .itemflex{
+    gap: 10px;
+   }
+
+   .itemflex .item-box{
+    width: 150px;
+    height: 250px;
+   }
+
+   .item-cont-min{
+    gap: 10px;
+    flex-wrap: wrap;
+    line-height: 0;
+   }
+
+   .item-cont-min p{
+    max-width: 100px;
+   }
+
+   .item-rating ul li i{
+    font-size: .7rem;
+   }
+
+   .item-rating i{
+    font-size: .7rem;
+   }
+
+   .item-rating .item-button{
+    height: 20px;
+    width: 70px;
+    font-size: .7rem;
+   }
+
+   .help-logo{
+    height: 40px;
+    width: 40px;
+   }
+
+   .help-logo i{
+    font-size: 2rem;
+   }
+
+   .help-sec p{
+    font-size: .7rem;
+   }
+
+   .help-sec{
+    gap: 10px;
+   }
+
+   .special-cont{
+    position: relative;
+    height: 200px;
+    width: 100px;
+    overflow: hidden;
+
+   }
+
+   .special-cont img{
+    height: 80px;
+   }
+   .special-cont .text-flex{
+    width: 100%;
+    overflow: hidden;
+   }
+
+   .special-cont .text-flex p{
+    font-size: .7rem;
+   }
+
+   .special-cont .item-button{
+    font-size: .4rem;
+    height: 20px;
+    width: 50px;
+   }
+
+   .special_poduct h1{
+    font-size: .7rem;
+    margin: 0;
+    padding: 0;
+   }
+
+
+   .special_poduct{
+    overflow: hidden;
+   }
+
+   .special{
+    height: 80vh;
+    overflow: hidden;
+   }
+
+   .special-box{
+    overflow: hidden;
+   }
+
+   .offer{
+    height: 50vh;
+   }
+
+   .offer-img img{
+    height: 230px;
+   }
+
+   .signup-det h1{
+    font-size: 1rem;
+   }
+
+   .sign-con{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+   .sign-con input{
+    width: 200px;
+   }
+
+   .sign-banner{
+    margin-top: 5px;
+   }
+
+   .sign-video{
+    width: 500px;
+    padding: 10px;
+   }
+
+   #myVideo{
+    height: 150px;
+   }
+
+   #myVideo1{
+    height: 150px;
+   }
+
+   .footer{
+    
+    margin-top: 10px;
+    height: 40vh;
+    padding: 20px;
+    
+   }
+
+   .footer-logo img{
+    height: 100px;
+   }
+
+   .About-us h4{
+    font-size: 1rem;
+    margin-bottom: 1px;
+   }
+
+   .About-us p{
+    max-width: 200px;
+    font-size: .7rem;
+   }
+
+   .Quick-links h4{
+    font-size: 1rem;
+    margin-bottom: 2px;
+   }
+
+   .Quick-links ul li a{
+    font-size: .7rem;
+    line-height: .7rem;
+    overflow: hidden;
+   }
+
+   .related ul li a{
+    font-size: .7rem;
+    line-height: .7rem;
+    overflow: hidden;
+   }
+
+   .contact h4{
+    font-size: 1rem;
+    margin-bottom: 1px;
+   }
+
+   .contact p{
+    font-size: .7rem;
+   }
+
+   .footer-social{
+    margin-top: 10px;
+    height: 20px;
+    padding: 10px;
+    overflow: hidden;
+   }
+
+   .footer-social .bx{
+    font-size: 1rem;
+    
+   }
+
+}
